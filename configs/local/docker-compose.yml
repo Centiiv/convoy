@@ -46,7 +46,7 @@ services:
         image: postgres:15.2-alpine
         restart: on-failure
         ports:
-            - "5432:5432"
+            - "5632:5432"
         environment:
             POSTGRES_DB: convoy
             POSTGRES_USER: convoy
